@@ -8,7 +8,7 @@ This repository is dedicated to the **Google Summer of Code (GSoC) 2025** projec
 - Project website and documentation
 
 ## 🎯 Project Goal: Enhancing exDQLM
-The primary objective is to **expand and optimize exDQLM**, making it a more powerful, flexible, and scalable tool for Bayesian quantile regression. Key enhancements include:
+The primary objective is to **expand and optimize exDQLM**, making it a more powerful, flexible, and scalable tool for Bayesian quantile regression. Key improvements include:
 - **Static Quantile Regression** using **Variational Bayes (VB)**
 - **Posterior Predictive Quantile Synthesis (PPQS)** for non-crossing quantile estimation
 - **Efficient Bayesian inference** using **C++ (Rcpp)** for large datasets

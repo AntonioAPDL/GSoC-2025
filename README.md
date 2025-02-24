@@ -6,8 +6,8 @@ Welcome to the official repository for the **Google Summer of Code (GSoC) 2025**
 
 The **exDQLM** package provides a Bayesian framework for **Dynamic Quantile Regression** using state-space models. This GSoC project will enhance the package by improving computational efficiency, incorporating **Variational Bayes (VB)**, extending it for **multivariate time series**, and ensuring compatibility with other R Bayesian packages.
 
-- **Project Title:** *Fast and Flexible Dynamic Quantile Inference: exDQLM*
-- **Short Title:** *exDQLM: Dynamic Quantile Modeling*
+- **Project Title:** TBD
+- **Short Title:** TBD
 - **Primary Goal:** Improve the exDQLM. 
 
 ## 📂 Repository Contents
@@ -44,12 +44,12 @@ The **exDQLM** package provides a Bayesian framework for **Dynamic Quantile Regr
 
 The key improvements planned for **exDQLM** include:
 
-- 📌 **Implementing Variational Bayes (VB)** for faster inference.
-- 📌 **Extending support for multivariate time series quantile modeling.**
-- 📌 **Improving computational performance** via C++ (`Rcpp` & `RcppParallel`).
-- 📌 **Enhancing compatibility** with `rstan`, `bayesplot`, and other R Bayesian packages.
-- 📌 **Developing better visualization tools** for model diagnostics.
-- 📌 **Ensuring efficient posterior predictive quantile synthesis (PPQS)**.
+-  **Implementing Variational Bayes (VB)** for faster inference.
+-  **Extending support for multivariate time series quantile modeling.**
+-  **Improving computational performance** via C++ (`Rcpp` & `RcppParallel`).
+-  **Enhancing compatibility** with `rstan`, `bayesplot`, and other R Bayesian packages.
+-  **Developing better visualization tools** for model diagnostics.
+-  **Ensuring efficient posterior predictive quantile synthesis (PPQS)**.
 
 ## 🏆 Mentors
 
@@ -65,7 +65,6 @@ This project is supported by the **R Project** under GSoC 2025.
 | Task | Deadline | Status |
 |------|----------|--------|
 | Confirm mentors | ✅ Feb 14, 2025 | Completed |
-| Discuss collaboration with Raquel Barata | ✅ Feb 14, 2025 | Completed |
 | Publish one-page project summary on R Project Wiki | March 1, 2025 | Pending |
 | Submit full proposal to Google | March 24 – April 8, 2025 | Pending |
 | Proposal Review by Google & Mentors | April 22, 2025 | Pending |

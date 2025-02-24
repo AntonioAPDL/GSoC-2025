@@ -1,91 +1,84 @@
-# 📢 Google Summer of Code (GSoC) 2025 - exDQLM
+# 🚀 GSoC 2025: Enhancing exDQLM
 
-## 🚀 About This Repository
-This repository is dedicated to the **Google Summer of Code (GSoC) 2025** project aimed at updating and extending the **exDQLM** package for Bayesian Dynamic Quantile Regression. It will serve as a central hub for:
-- GSoC proposal drafts and related documents
-- Project development and implementation
-- Code contributions and discussions
-- Project website and documentation
+Welcome to the official repository for the **Google Summer of Code (GSoC) 2025** project aimed at enhancing the **exDQLM** package. This repository will house all proposals, development progress, and documentation related to the project.
 
-## 🎯 Project Goal: Enhancing exDQLM
-The primary objective is to **expand and optimize exDQLM**, making it a more powerful, flexible, and scalable tool for Bayesian quantile regression. Key improvements include:
-- **Static Quantile Regression** using **Variational Bayes (VB)**
-- **Posterior Predictive Quantile Synthesis (PPQS)** for non-crossing quantile estimation
-- **Efficient Bayesian inference** using **C++ (Rcpp)** for large datasets
-- **Integration with the broader Bayesian R ecosystem**, ensuring compatibility with key packages
+## 📌 Project Overview
 
----
+The **exDQLM** package provides a Bayesian framework for **Dynamic Quantile Regression** using state-space models. This GSoC project will enhance the package by improving computational efficiency, incorporating **Variational Bayes (VB)**, extending it for **multivariate time series**, and ensuring compatibility with other R Bayesian packages.
 
-## 📌 What is Google Summer of Code (GSoC)?
-[Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a global, **stipend-funded** program by Google that supports open-source development. Participants work on software projects under experienced mentors.
+- **Project Title:** *Fast and Flexible Dynamic Quantile Inference: exDQLM*
+- **Short Title:** *exDQLM: Dynamic Quantile Modeling*
+- **Primary Goal:** Improve the exDQLM. 
 
-### **How GSoC Works**
-1. Contributors submit project proposals to open-source organizations (e.g., the R Project).
-2. Mentors guide contributors throughout the project.
-3. Google provides stipends based on successful project completion.
+## 📂 Repository Contents
 
-| **Phase**                     | **Dates**               | **Description**  |
-|--------------------------------|-------------------------|------------------|
-| **Mentoring Organization Applications** | **Jan 27 – Feb 11, 2025** | Organizations apply to participate in GSoC. |
-| **Organizations Announced**    | **Feb 27, 2025**        | Accepted organizations published. |
-| **Project Advertisement Published** | **By March 1, 2025** | The R Project publishes project summaries on GitHub Wiki. |
-| **Contributor Applications**   | **March 24 – April 8, 2025** | Full proposals are submitted. |
-| **Proposal Review Period**     | **April 22, 2025**      | Proposals are ranked and reviewed. |
-| **Accepted Contributors Announced** | **May 8, 2025** | Selected contributors move forward. |
-| **Community Bonding Period**   | **May 8 – June 1, 2025** | Engagement with mentors and planning. |
-| **Coding Phase 1**             | **June 2 – June 17, 2025** | Initial implementation and setup. |
-| **Coding Phase 2**             | **June 18 – July 15, 2025** | Expanding functionality and testing. |
-| **Midterm Evaluations**        | **July 14 – 18, 2025**  | Progress evaluation by mentors. |
-| **Final Coding Phase**         | **July 16 – August 19, 2025** | Final optimizations and documentation. |
-| **Final Evaluations**          | **September 1 – 8, 2025** | Mentors review completed projects. |
+| Folder/File | Description |
+|------------|-------------|
+| `proposals/` | Contains drafts and final versions of the GSoC proposal. |
+| `README.md` | This file, providing an overview of the project. |
 
----
+## 🔗 Important Links
 
-## 🏆 Mentors & Collaboration
-### **Project Mentors**
-- **Rebecca Killick** (Lancaster University, UK) – [r.killick@lancaster.ac.uk](mailto:r.killick@lancaster.ac.uk)
-- **Raquel Barata** (Penn State University, USA) – [rxb875@psu.edu](mailto:rxb875@psu.edu)
+- 📄 **Original exDQLM Paper:** [Technical Report UCSC-SOE-21-10](https://tr.soe.ucsc.edu/sites/default/files/technical-reports/UCSC-SOE-21-10.pdf)
+- 📦 **CRAN Package:** [exDQLM on CRAN](https://cran.r-project.org/web/packages/exdqlm/index.html)
+- 🌐 **GSoC Official Page:** [Google Summer of Code](https://summerofcode.withgoogle.com/)
 
----
+## 📅 GSoC 2025 Timeline
 
-## 💰 Funding & Stipends
-GSoC provides **stipends** based on project size:
+| Phase | Dates | Description |
+|-------|-------|-------------|
+| **Mentoring Org Applications** | Jan 27 – Feb 11, 2025 | Organizations apply to participate. |
+| **Organizations Announced** | Feb 27, 2025 | Google publishes accepted organizations. |
+| **Project Advertisement** | By March 1, 2025 | The R Project Wiki includes project details. |
+| **Contributor Applications** | March 24 – April 8, 2025 | Submission of proposals. |
+| **Proposal Review** | April 22, 2025 | Google and mentors evaluate submissions. |
+| **Accepted Contributors Announced** | May 8, 2025 | Successful contributors are selected. |
+| **Community Bonding Period** | May 8 – June 1, 2025 | Refining project goals and community engagement. |
+| **Coding Phase 1** | June 2 – June 17, 2025 | Setting up the repository and initial development. |
+| **Coding Phase 2** | June 18 – July 15, 2025 | Feature expansion and testing. |
+| **Midterm Evaluations** | July 14 – 18, 2025 | Progress review with mentors. |
+| **Final Coding Phase** | July 16 – Aug 19, 2025 | Final optimizations and documentation. |
+| **Final Evaluations** | Sept 1 – 8, 2025 | Mentors submit final assessments. |
 
-| **Project Size** | **Work Hours** | **Total Stipend (USD)** | **Payment Schedule** |
-|-----------------|--------------|--------------------|------------------|
-| **Medium** | 175 hours | ~$3,000 (adjusted by country PPP) | Paid in 3 installments |
-| **Large** | 350 hours | ~$6,000 (adjusted by country PPP) | Paid in 3 installments |
+## 🎯 Objectives of the Project
 
----
+The key improvements planned for **exDQLM** include:
 
-## 📅 Next Steps & Deadlines
+- 📌 **Implementing Variational Bayes (VB)** for faster inference.
+- 📌 **Extending support for multivariate time series quantile modeling.**
+- 📌 **Improving computational performance** via C++ (`Rcpp` & `RcppParallel`).
+- 📌 **Enhancing compatibility** with `rstan`, `bayesplot`, and other R Bayesian packages.
+- 📌 **Developing better visualization tools** for model diagnostics.
+- 📌 **Ensuring efficient posterior predictive quantile synthesis (PPQS)**.
 
-### ⏳ **March 1, 2025**
-- [ ] Publish **one-page project description** on the R Project GitHub Wiki
-- [ ] Include project motivation, technical details, and mentor information
-- [ ] Confirm that the proposal aligns with GSoC guidelines
+## 🏆 Mentors
 
-### ⏳ **March 24 – April 8, 2025**
-- [ ] Submit full proposal to Google
-- [ ] Incorporate mentor feedback
-- [ ] Finalize deliverables and project timeline
+This project is supported by the **R Project** under GSoC 2025.
 
-### ⏳ **April 22, 2025**
-- [ ] Proposal review period
-- [ ] Google and mentors evaluate applications
+| Mentor | Institution | Role |
+|--------|------------|------|
+| **Rebecca Killick** | Lancaster University, UK | Evaluating Mentor |
+| **Raquel Barata** | Penn State, USA | Co-Mentor |
 
-### ⏳ **May 8, 2025**
-- [ ] Accepted contributors announced
-- [ ] Begin **Community Bonding Period**
+## 🏗 Next Steps
 
----
+| Task | Deadline | Status |
+|------|----------|--------|
+| Confirm mentors | ✅ Feb 14, 2025 | Completed |
+| Discuss collaboration with Raquel Barata | ✅ Feb 14, 2025 | Completed |
+| Publish one-page project summary on R Project Wiki | March 1, 2025 | Pending |
+| Submit full proposal to Google | March 24 – April 8, 2025 | Pending |
+| Proposal Review by Google & Mentors | April 22, 2025 | Pending |
+| Officially begin the project | May 8, 2025 | Pending |
+
 
 ## 📬 Contact
-For inquiries or feedback, feel free to reach out:
-- **Email:** [jaguir26@ucsc.edu](mailto:jaguir26@ucsc.edu)
-- **GitHub:** [AntonioAPDL](https://github.com/AntonioAPDL)
-- **Website:** [antonio-aguirre.com](https://antonio-aguirre.com)
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **Antonio Aguirre** (Contributor) – jaguir26@ucsc.edu
+- **Rebecca Killick** (Mentor) – r.killick@lancaster.ac.uk
+- **Raquel Barata** (Mentor) – rxb875@psu.edu
 
 ---
-
 

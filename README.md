@@ -46,8 +46,6 @@ The primary objective is to **expand and optimize exDQLM**, making it a more pow
 - **Rebecca Killick** (Lancaster University, UK) – [r.killick@lancaster.ac.uk](mailto:r.killick@lancaster.ac.uk)
 - **Raquel Barata** (Penn State University, USA) – [rxb875@psu.edu](mailto:rxb875@psu.edu)
 
-**Note:** While mentors guide the project, contributors are expected to take initiative in implementation.
-
 ---
 
 ## 💰 Funding & Stipends
@@ -61,9 +59,6 @@ GSoC provides **stipends** based on project size:
 ---
 
 ## 📅 Next Steps & Deadlines
-### ✅ **February 2025**
-- [x] Confirm mentors (Rebecca & Raquel)
-- [x] Discuss collaboration with Raquel on **exDQLM**
 
 ### ⏳ **March 1, 2025**
 - [ ] Publish **one-page project description** on the R Project GitHub Wiki
@@ -85,20 +80,6 @@ GSoC provides **stipends** based on project size:
 
 ---
 
-## 🔍 Takeaways
-- This project will **extend exDQLM** beyond my PhD work, making it useful for the broader **Bayesian statistics community**.
-- Collaboration with **Raquel Barata** ensures compatibility with existing **Bayesian R packages**.
-- The next major deadline is **March 1**, when the project must be published on the **R Project GitHub**.
-- The stipend is competitive—**strong project framing and mentor support** are critical.
-
----
-
-## ❓ Questions
-- Can **Raquel Barata** officially contribute as a co-collaborator rather than a mentor?
-- Can **Bruno Sansó** be the "Evaluating Mentor" while Rebecca serves as an external mentor?
-
----
-
 ## 📬 Contact
 For inquiries or feedback, feel free to reach out:
 - **Email:** [jaguir26@ucsc.edu](mailto:jaguir26@ucsc.edu)
@@ -107,5 +88,4 @@ For inquiries or feedback, feel free to reach out:
 
 ---
 
-**📌 Stay tuned for updates!** 🚀
 

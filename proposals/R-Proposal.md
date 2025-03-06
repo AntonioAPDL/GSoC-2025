@@ -441,7 +441,7 @@ Below are strategies to mitigate potential risks:
 ### **Submission Table**
 | Contributor Name | GitHub Profile | Test |
 |----------------|---------------|-------------|
-| Antonio Aguirre | [AntonioAPDL](https://github.com/AntonioAPDL) | [Hard](#), [Medium](#), [Easy](#) |
+| Antonio Aguirre | [AntonioAPDL](https://github.com/AntonioAPDL) | [Hard](#), [Medium](#), [Easy](https://github.com/AntonioAPDL/GSoC-2025/tree/main/tasks/task_easy) |
 
 ---
 

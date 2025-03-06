@@ -14,6 +14,7 @@ The **exDQLM** package provides a Bayesian framework for **Dynamic Quantile Regr
 
 | Folder/File | Description |
 |------------|-------------|
+| `tasks/` | Contains finished tasks |
 | `proposals/` | Contains drafts and final versions of the GSoC proposal. |
 | `README.md` | This file, providing an overview of the project. |
 

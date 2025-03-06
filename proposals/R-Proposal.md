@@ -19,7 +19,7 @@ I hold a **B.Sc. in Applied Mathematics** (with an emphasis on **Numerical Analy
 
 ## Technical Expertise
 
-I have **10+ years of experience** working with **R** and **MATLAB** for **statistical modeling, computational inference, time series analysis, and numerical computing**. Additionally, I have **8+ years of experience** in **Python** and **C++**, which I use extensively for **high-performance computing, Bayesian inference, and statistical simulations**.
+I have **8+ years of experience** working with **R** and **MATLAB** for **statistical modeling, computational inference, time series analysis, and numerical computing**. Additionally, I have **7+ years of experience** in **Python** and **C++**, which I use extensively for **high-performance computing, Bayesian inference, and statistical simulations**.
 
 ###  **Software & Programming Skills**
 - **Languages:** R, MATLAB, Python, C++, SQL, Bash

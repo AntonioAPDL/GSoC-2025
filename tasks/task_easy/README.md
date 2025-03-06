@@ -37,9 +37,9 @@ The **Extended Asymmetric Laplace (exAL)** distribution extends the standard **A
 ### **Probability Density Function (PDF)**
 For a given **quantile level** `p0 ∈ (0,1)`, the exAL density function is defined as:
 
-\[
+$$
 f(y \mid p_0, \mu, \sigma, \gamma) = \int_{\mathbb{R}^+} f_{AL}(y \mid \mu + \sigma |\gamma| C(p_0, \gamma, s), \sigma) N^+(s \mid 0, 1) ds
-\]
+$$
 
 where \( f_{AL} \) is the Asymmetric Laplace density, and \( N^+(s \mid 0,1) \) represents the **half-normal** distribution.
 
@@ -51,19 +51,19 @@ The exAL distribution admits several **infinite mixture representations**, inclu
 ### **Alternative Parameterization**
 The exAL distribution can be reparameterized using `p0` and `γ` instead of the usual `p` and `α`:
 
-\[
+$$
 p = \mathbf{1}(\gamma<0) + \frac{p_0 - \mathbf{1}(\gamma<0)}{g(\gamma)}
-\]
+$$
 
-\[
+$$
 \alpha = \frac{|\gamma|}{\mathbf{1}(\gamma>0) - p}
-\]
+$$
 
 where:
 
-\[
+$$
 g(\gamma) = 2\Phi(-|\gamma|)e^{\gamma^2/2}
-\]
+$$
 
 The **γ parameter is restricted** to an interval **(L, U)**, which ensures well-defined distribution properties.
 

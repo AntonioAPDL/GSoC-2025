@@ -423,7 +423,7 @@ Below are strategies to mitigate potential risks:
    - `qexal(p, tau, mu, sigma, gamma, p, lower.tail = TRUE, log.p = FALSE)`: Quantile function.  
    - `rexal(n, tau, mu, sigma, gamma, p)`: Random sampling function.  
 - Ensure numerical stability and efficiency of the C++ implementation.  
-- Validate implementation by comparing against **analytical properties** and **existing R implementations**.  
+- Validate implementation by comparing against **analytical properties**.  
 
 #### **Medium: Multivariate Kalman Filtering and Smoothing in C++**
 - Implement **Multivariate Kalman Filtering (KF) and Kalman Smoothing (KS)** algorithms in C++.  

@@ -108,7 +108,7 @@ rexal(n, p0, mu, sigma, gamma)
 ---
 
 ## **References**
-- Yan, J., & Kottas, A. (2017). A Bayesian nonparametric mixture modeling framework for distributional and regression problems. *Journal of Computational and Graphical Statistics*.
+- Yan, Y., & Kottas, A. (2017). A new family of error distributions for Bayesian quantile regression. arXiv preprint arXiv:1701.05666. https://arxiv.org/abs/1701.05666
 
 ---
 

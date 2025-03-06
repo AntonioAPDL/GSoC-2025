@@ -38,10 +38,10 @@ The **Extended Asymmetric Laplace (exAL)** distribution extends the standard **A
 For a given **quantile level** `p0 ∈ (0,1)`, the exAL density function is defined as:
 
 $$
-f(y \mid p_0, \mu, \sigma, \gamma) = \int_{\mathbb{R}^+} f_{AL}(y \mid \mu + \sigma |\gamma| C(p_0, \gamma, s), \sigma) N^+(s \mid 0, 1) ds
+f(y \mid p_0, \mu, \sigma, \gamma) = \int_{\mathbb{R}^+} f_{AL}(y \mid \mu + \sigma |\alpha|  N^+(s \mid 0, 1) ds
 $$
 
-where \( f_{AL} \) is the Asymmetric Laplace density, and \( N^+(s \mid 0,1) \) represents the **half-normal** distribution.
+where $ f_{AL} $ is the Asymmetric Laplace density, and $ N^+(s \mid 0,1) $ represents the **half-normal** distribution.
 
 The exAL distribution admits several **infinite mixture representations**, including:
 1. **AL as a Normal-Exponential Mixture**

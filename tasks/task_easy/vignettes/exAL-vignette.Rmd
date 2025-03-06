@@ -1,6 +1,6 @@
 ---
 title: "Asymmetric Laplace and GAL Distributions"
-author: "Quantitative Analytics Team"
+author: "Antonio Aguirre"
 date: "`r Sys.Date()`"
 output:
 html_document:

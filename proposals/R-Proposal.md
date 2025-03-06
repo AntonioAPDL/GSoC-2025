@@ -425,10 +425,10 @@ Below are strategies to mitigate potential risks:
 - Ensure numerical stability and efficiency of the C++ implementation.  
 - Validate implementation by comparing against **analytical properties**.  
 
-#### **Medium: Multivariate Kalman Filtering and Smoothing in C++**
-- Implement **Multivariate Kalman Filtering (KF) and Kalman Smoothing (KS)** algorithms in C++.  
+#### **Medium: Kalman Filtering and Smoothing in C++**
+- Implement **Univariate Kalman Filtering (KF) and Kalman Smoothing (KS)** algorithms in C++.  
 - Develop an R interface via `Rcpp` and `RcppArmadillo`.  
-- Use the implementation to fit a **Multivariate Normal Dynamic Linear Model (DLM)**.  
+- Use the implementation to fit a **Normal Dynamic Linear Model (DLM)**.  
 - Compare results with the **R package `dlm`** to validate correctness.  
 - Optimize computation using **robust matrix factorization techniques (Cholesky, QR, SVD)**.  
 

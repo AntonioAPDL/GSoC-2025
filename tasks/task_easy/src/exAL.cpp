@@ -52,45 +52,6 @@ double find_gamma_root_boost(double target, double lower, double upper) {
     return (result.first + result.second) / 2.0;  // Return the midpoint as the root
 }
 
-// // Newton's Method to find L and U
-// double find_gamma_root_newton(double target, double init_guess) {
-//     const double TOL = 1e-6;
-//     const int MAX_ITER = 10000000;
-    
-//     double gamma = init_guess;
-    
-//     for (int iter = 0; iter < MAX_ITER; iter++) {
-//         double g_val = g_gamma(gamma) - target;
-//         double g_derivative = g_gamma_prime(gamma);
-        
-//         if (std::abs(g_derivative) < 1e-10) { 
-//             stop("Derivative too small, Newton's method may not converge.");
-//         }
-
-//         double gamma_new = gamma - g_val / g_derivative;
-
-//         if (std::abs(gamma_new - gamma) < TOL) {
-//             return gamma_new;  // Converged
-//         }
-
-//         gamma = gamma_new;
-//     }
-
-//     stop("Newton's method failed to converge.");
-//     return NA_REAL; // Fallback return
-// }
-
-// // Function to compute L and U robustly using Newton's method
-// void compute_gamma_bounds(double p0, double &L, double &U) {
-//     L = find_gamma_root_newton(1 - p0, -2.0);  // Start negative
-//     U = find_gamma_root_newton(p0, 2.0);  // Start positive
-
-//     if (L >= U) {
-//         Rcpp::Rcout << "Gamma bounds issue: L = " << L << ", U = " << U << ", p0 = " << p0 << "\n";
-//         stop("Error: Unable to determine valid gamma bounds.");
-//     }
-// }
-
 void compute_gamma_bounds(double p0, double &L, double &U) {
     double lower_bound = -100, upper_bound = 100;  // Expanded search range
     try {

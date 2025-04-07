@@ -91,12 +91,12 @@ I have **8+ years of experience** working with **R** and **MATLAB** for **statis
 ##  Mentors
 
 - **Evaluating Mentor:**  
-  - **Rebecca Killick** (Lancaster University, UK) – r.killick@lancaster.ac.uk  
+  - 
 - **Co-Mentor:**  
-  - **Raquel Barata** (Penn State University, USA) – rxb875@psu.edu  
+  -  
 - **Communication with Mentors:**  
-  - I have been actively communicating with **Rebecca Killick**, discussing project goals, software integration, and implementation strategies.
-  - **Raquel Barata** has expressed strong interest in staying involved, as my research aligns closely with her work. We maintain frequent communication and plan to collaborate on this and future projects.
+  - 
+  - 
 
 ---
 
@@ -415,7 +415,7 @@ Below are strategies to mitigate potential risks:
 
 ### **Test Tasks**
 
-#### **Easy: Implementation of the exAL Distribution in C++**
+#### **Medium: Implementation of the exAL Distribution in C++**
 - Implement the **Extended Asymmetric Laplace (exAL) distribution** in C++ following **Yan and Kottas (2017)**.  
 - Implement and expose the following functions to R using `Rcpp`:  
    - `dexal(x, p0, mu, sigma, gamma, log = FALSE)`: Density function.  
@@ -425,7 +425,7 @@ Below are strategies to mitigate potential risks:
 - Ensure numerical stability and efficiency of the C++ implementation.  
 - Validate implementation by comparing against **analytical properties**.  
 
-#### **Medium: Kalman Filtering and Smoothing in C++**
+#### **Easy: Kalman Filtering and Smoothing in C++**
 - Implement **Univariate Kalman Filtering (KF) and Kalman Smoothing (KS)** algorithms in C++.  
 - Develop an R interface via `Rcpp` and `RcppArmadillo`.  
 - Use the implementation to fit a **Normal Dynamic Linear Model (DLM)**.  

@@ -1,4 +1,4 @@
-# 🚀 GSoC 2025: Enhancing exDQLM
+# GSoC 2025: Enhancing exDQLM
 
 Welcome to the official repository for the **Google Summer of Code (GSoC) 2025** project aimed at enhancing the **exDQLM** package. This repository will house all proposals, development progress, and documentation related to the project.
 
@@ -58,8 +58,8 @@ This project is supported by the **R Project** under GSoC 2025.
 
 | Mentor | Institution | Role |
 |--------|------------|------|
-| **Rebecca Killick** | Lancaster University, UK | Evaluating Mentor |
-| **Raquel Barata** | Penn State, USA | Co-Mentor |
+| **Raquel Barata** | Penn State, USA | Evaluating-Mentor |
+| **Rebecca Killick** | Lancaster University, UK | Co-Mentor |
 
 ## 🏗 Next Steps
 
@@ -77,8 +77,8 @@ This project is supported by the **R Project** under GSoC 2025.
 If you have any questions or suggestions, feel free to reach out:
 
 - **Antonio Aguirre** (Contributor) – jaguir26@ucsc.edu
-- **Rebecca Killick** (Mentor) – r.killick@lancaster.ac.uk
 - **Raquel Barata** (Mentor) – rxb875@psu.edu
+- **Rebecca Killick** (Mentor) – r.killick@lancaster.ac.uk
 
 ---
 

@@ -58,8 +58,8 @@ This project is supported by the **R Project** under GSoC 2025.
 
 | Mentor | Institution | Role |
 |--------|------------|------|
-| **Raquel Barata** | Penn State, USA | Evaluating-Mentor |
-| **Rebecca Killick** | Lancaster University, UK | Co-Mentor |
+|  | | Evaluating-Mentor |
+|  |  | Co-Mentor |
 
 ## 🏗 Next Steps
 
@@ -77,8 +77,7 @@ This project is supported by the **R Project** under GSoC 2025.
 If you have any questions or suggestions, feel free to reach out:
 
 - **Antonio Aguirre** (Contributor) – jaguir26@ucsc.edu
-- **Raquel Barata** (Mentor) – rxb875@psu.edu
-- **Rebecca Killick** (Mentor) – r.killick@lancaster.ac.uk
+
 
 ---
 
